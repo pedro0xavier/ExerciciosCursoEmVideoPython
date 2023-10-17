@@ -1,3 +1,4 @@
+#Programa que leia um número real e mostre sua porção inteira
 from math import trunc
 n = float(input('Digite um número '))
 

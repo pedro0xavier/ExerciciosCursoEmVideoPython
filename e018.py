@@ -1,3 +1,4 @@
+# Programa que recebe um ângulo e diz o valor do seno,cosseno e tangente
 from math import radians,cos,sin,tan
 an = float(input("Digite o ângulo que quer saber os valores "))
 ii= radians(an)

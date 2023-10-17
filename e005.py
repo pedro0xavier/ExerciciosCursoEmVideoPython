@@ -1,3 +1,4 @@
+#Um programa que lê um número inteiro e mostra o seu antecessor e o seu sucessor
 n = int(input('Digite um número '))
 
 nsucessor = n + 1

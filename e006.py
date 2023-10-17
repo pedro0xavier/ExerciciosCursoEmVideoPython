@@ -1,3 +1,4 @@
+#Algoritmo que lê um número e mostra o seu dobro,triplo e raiz quadrada
 n = int(input('Digite um número '))
 
 dobro = n * 2

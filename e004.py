@@ -1,3 +1,4 @@
+#Faça um programa que leia algo digitado pelo teclado e mostre na tela o tipo primitivo e todas as informações sobre ela
 n = input("Digite algo ")
 
 print('O tipo primitivo desse valor é {}'.format(type(n)))

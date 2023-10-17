@@ -1,3 +1,4 @@
+#Programa que converta uma temperatura digitada em graus celcius e a converta para fahrenheit
 celsius = float(input('Digite a temperatura em celcius para ser convertida para fahrenheit '))
 fh = (celsius * 1.8) + 32
 

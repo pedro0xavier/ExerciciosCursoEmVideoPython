@@ -1,3 +1,4 @@
+#Crie um programa que leia dois números e mostre a soma entre elas 
 n1 = int(input("Digite um número \n"))
 n2 = int(input("Digite um outro número \n"))
 

@@ -1,3 +1,4 @@
+#Programa que leia quantos reais a pessoa possui na coarteira e converta para outras moedas
 real = float(input('Digite quantos reais a carteira possui '))
 dolar = real / 5.040
 euro = real / 5.324

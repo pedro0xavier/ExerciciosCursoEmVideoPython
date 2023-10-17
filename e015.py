@@ -1,3 +1,4 @@
+'''Programa de aluguel de carros que pergunta os km percorridos e quantos dias ele foi alugado para calcular o valor a ser pago'''
 a = 'ALUGEL DE CARROS'
 print("{:^20}".format(a))
 
