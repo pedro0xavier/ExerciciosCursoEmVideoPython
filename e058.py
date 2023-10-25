@@ -3,13 +3,13 @@
  mostrando no final quantos palpites foram necessários para vencer.'''
 from random import randint
 print('-=-' * 30)
-txt = 'Vou pensar em um número de 0 a 5. Tente adivinhar.......'
+txt = 'Vou pensar em um número de 0 a 10. Tente adivinhar.......'
 x = txt.center(20)
 print(x)
 print('-=-' * 30)
 controle = False
 tentativas = 0
-computador = randint(0,5)
+computador = randint(0,10)
 while not controle:
     jogador = int(input('Em que número pensei? '))
     if computador != jogador:
