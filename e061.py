@@ -5,6 +5,5 @@ pa = primeiro
 while cont <=10:
     print('{} ->'.format(pa), end=' ')
     pa+=razao
-    if cont == 10:
-        print ('fim')
     cont +=1
+print ('fim')
