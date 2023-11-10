@@ -1,3 +1,4 @@
+#Faça um programa que leia um número qualquer e mostre o seu fatorial
 n1  = int(input('Digite um número para vermos seu fatorial: '))
 c = n1
 fat = 1

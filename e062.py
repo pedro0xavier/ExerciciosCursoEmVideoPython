@@ -1,3 +1,4 @@
+'''Melhore o DESAFIO 61, perguntando para o usuário se ele quer mostrar mais alguns termos. O programa encerrará quando ele disser que quer mostrar 0 termos.'''
 cont = 1
 primeiro = int(input('Primeiro termo: '))
 razao = int(input('Razão da PA: '))

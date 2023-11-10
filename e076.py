@@ -1,3 +1,4 @@
+'''Crie um programa que tenha uma tupla única com nomes de produtos e seus respectivos preços, na sequência. No final, mostre uma listagem de preços, organizando os dados em forma tabular.'''
 items = ('Caderno', 15.56,
          'Lápis', 5,
          'Celular', 1600.90,
