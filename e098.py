@@ -24,4 +24,4 @@ def contador(inicio,fim,passo):
     passo = int(input('Passo: '))
     for i in range(inicio,fim,passo):
         print(i)
-contador(inicio = 1,fim = 3,passo = 1)
+contador(inicio = 1,fim = 3,passo = 1) 
