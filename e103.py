@@ -8,4 +8,7 @@ if gols.isnumeric():
     gols  = int(gols)
 else:
     gols = 0
-print(ficha(nome,gols))
+if nome == '':
+    print(ficha(goles=gols))
+else:
+    print(ficha(gols,nome))
