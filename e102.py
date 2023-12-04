@@ -11,3 +11,4 @@ def fatorial(num,show):
                 print(f' =  {fact}')
     return fact
 print(fatorial(9,show = True))
+print(fatorial(5,show = True))
