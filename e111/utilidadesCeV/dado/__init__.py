@@ -9,9 +9,9 @@ def is_number(string):
 def leiadinheiro(msg):
     valido = False
     while not valido:
-        entrada =str(input(msg)).replace(',','.')
-        if entrada.isnumeric() or is_number(entrada) == True:
+        entrada =str(input(msg)).replace(',','.').strip()
+        if entrada.isnumeric() or is_number(entrada) == True or entrada != '':
             valido = True
             return float(entrada)
         else:
-            print(f'ERRO {entrada} é um preço inválido')
+            print(f'ERRO {entrada} é um número inválido')
