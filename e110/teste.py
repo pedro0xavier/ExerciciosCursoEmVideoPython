@@ -1,5 +1,6 @@
 from moeda import * 
-'''Adapte o código do desafio #107, criando uma função adicional chamada moeda() que consiga mostrar os números como um valor monetário formatado.'''
+'''Adicione o módulo moeda.py criado nos desafios anteriores, uma função chamada resumo(), que mostre na tela algumas informações geradas pelas funções que já temos no módulo criado até aqui.
+'''
 valor = float(input('Digite o preço: R$'))
 Aumento = float(input('Taxa de aumento: '))
 Reducao = float(input('Taxa de redução: '))
